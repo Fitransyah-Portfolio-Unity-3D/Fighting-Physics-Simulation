@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3613919428417218272
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7219316296173494555}
+  - component: {fileID: 8211317154555173450}
+  - component: {fileID: -3952265791326764887}
+  m_Layer: 0
+  m_Name: Grab Script
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7219316296173494555
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3613919428417218272}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8211317154555173450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3613919428417218272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92471cc1733c49042be56cd39b4b6e5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: "Test comment : \n\nLocation : Grab.cs from PuppetMaster \"Meele Grab\" Demo\n//
+    Unpin the puppet we collided with\nthis code for unpin the puppet with every
+    behaviour attached\n\n// Adding a ConfigurableJoint to link the two puppets\nthis
+    code add joint to connect both rigidbody\nalso recognizing the other rigidbody
+    (grabbed body part)\nneed to modify this part from original code\n\n// Move the
+    anchor to where the hand is (since we done have a rigidbody for the hand)\ncreating
+    offset for the joint just created\n\n// Lock linear and angular motion of the
+    joint\nI think this locking the movement of the created joint (angular and linear)\n\n//
+    Increasing the mass of the linked Rigidbody when it is a part of a chain is the
+    easiest way to improve link stability.\nmaking the holding hand having more mass
+    for stability\n\n// Solver iteration count needs to be increased to improve stability
+    of the link between 2 long joint chains.\nmaking the grabber puppet master iteration
+    counts higher for stability\n\n// The other puppet is heavy so slow down..\nsome
+    local conditioning for the grabber\n\n\n// Releasing the other puppet, restoring
+    the initial state\nthis is the code to release other puppet\nand return all modified
+    variable in the previous code\n\n\n\n\n\n"
+--- !u!114 &-3952265791326764887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3613919428417218272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92471cc1733c49042be56cd39b4b6e5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: 
