@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -294,12 +294,20 @@ PrefabInstance:
       value: 0.000000019557774
       objectReference: {fileID: 0}
     - target: {fileID: 2512622681203033794, guid: 4a44bc60677f532428c8ab49564e9aea, type: 3}
+      propertyPath: thirdCombo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2512622681203033794, guid: 4a44bc60677f532428c8ab49564e9aea, type: 3}
+      propertyPath: secondCombo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2512622681203033794, guid: 4a44bc60677f532428c8ab49564e9aea, type: 3}
       propertyPath: deadMuscleWeight
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2512622681203033794, guid: 4a44bc60677f532428c8ab49564e9aea, type: 3}
       propertyPath: fadeOutPinWeightSpeed
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2512622681203033794, guid: 4a44bc60677f532428c8ab49564e9aea, type: 3}
       propertyPath: fadeOutMuscleWeightSpeed
@@ -475,7 +483,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8691003030795780918, guid: 4a44bc60677f532428c8ab49564e9aea, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.26
+      value: -0.009
       objectReference: {fileID: 0}
     - target: {fileID: 8691003030795780918, guid: 4a44bc60677f532428c8ab49564e9aea, type: 3}
       propertyPath: m_LocalPosition.z
@@ -495,7 +503,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8691003031170260210, guid: 4a44bc60677f532428c8ab49564e9aea, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.77
+      value: -3.664
       objectReference: {fileID: 0}
     - target: {fileID: 8691003031170260210, guid: 4a44bc60677f532428c8ab49564e9aea, type: 3}
       propertyPath: m_LocalRotation.w
@@ -983,6 +991,10 @@ PrefabInstance:
       propertyPath: stats.Array.data[4]
       value: 
       objectReference: {fileID: 1060019106}
+    - target: {fileID: 8140663418950437120, guid: 092a776e9cddb694d96d2f46708e64d7, type: 3}
+      propertyPath: blockingOn
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8940759549169474638, guid: 092a776e9cddb694d96d2f46708e64d7, type: 3}
       propertyPath: m_Name
       value: Maker Man Root (1)
@@ -1349,6 +1361,14 @@ PrefabInstance:
     - target: {fileID: 1776221762118527157, guid: 3e665377831cd6247a6d783bddf79372, type: 3}
       propertyPath: m_LocalPosition.z
       value: -0.001440525
+      objectReference: {fileID: 0}
+    - target: {fileID: 2504802161831564238, guid: 3e665377831cd6247a6d783bddf79372, type: 3}
+      propertyPath: InitialModule.startSizeY.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2504802161831564238, guid: 3e665377831cd6247a6d783bddf79372, type: 3}
+      propertyPath: InitialModule.startSizeZ.minMaxState
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2608136725966853460, guid: 3e665377831cd6247a6d783bddf79372, type: 3}
       propertyPath: m_LocalPosition.x
